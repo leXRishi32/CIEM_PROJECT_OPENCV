@@ -67,7 +67,7 @@ void detectAndDisplay(Mat frame)
 		resize(crop, res, Size(128, 128), 0, 0, INTER_LINEAR);
 		cvtColor(crop, gray, COLOR_BGR2GRAY);
 		stringstream ssfn;
-		filename = "C:\\Users\\Asus\\Desktop\\Faces\\";
+		filename = "C:........";
 		ssfn << filename.c_str() << name << filenumber << ".jpg";
 		filename = ssfn.str();
 		imwrite(filename, res);
